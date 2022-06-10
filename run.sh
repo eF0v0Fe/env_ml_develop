@@ -1,0 +1,2 @@
+PROJECT_NAME="general_env"
+sudo docker run --gpus 'all' -v /mnt/e/WORKSPACE/general:/home/$USER/workspace_gen -p 49550:49550 -p 49551:49551 -p 49552:49552 -p 49553:49553  -it --name ${USER}.$PROJECT_NAME ${USER}/$PROJECT_NAME /bin/bash
